@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: se.kth.iv1350.POS.model.StoreInformationTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE!
+se.kth.iv1350.POS.model.StoreInformationTest.testGetStoreName()  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "se.kth.iv1350.POS.model.StoreInformation.getStoreName()" because "instance" is null
+	at se.kth.iv1350.POS.model.StoreInformationTest.testGetStoreName(StoreInformationTest.java:55)
+
+se.kth.iv1350.POS.model.StoreInformationTest.testGetStoreAddress()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "se.kth.iv1350.POS.model.StoreInformation.getStoreAddress()" because "instance" is null
+	at se.kth.iv1350.POS.model.StoreInformationTest.testGetStoreAddress(StoreInformationTest.java:70)
+
